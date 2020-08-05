@@ -1,0 +1,22 @@
+<configuration>
+<property>
+ <name>mapreduce.framework.name</name>
+ <value>yarn</value>
+</property>
+<property>
+ <name>yarn.app.mapreduce.am.env</name>
+ <value>/opt/hadoop/etc/hadoop</value>
+</property>
+<property>
+ <name>mapreduce.map.env</name>
+ <value>/opt/hadoop/etc/hadoop</value>
+</property>
+<property>
+ <name>mapreduce.reduce.env</name>
+ <value>/opt/hadoop/etc/hadoop</value>
+</property>
+<property>
+ <name>mapreduce.application.classpath</name>
+ <value>/opt/hadoop/share/hadoop/mapreduce/*:/opt/hadoop/share/hadoop/mapreduce/lib/*</value>
+</property>
+</configuration>

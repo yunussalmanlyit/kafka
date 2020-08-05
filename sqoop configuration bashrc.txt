@@ -1,0 +1,15 @@
+export JAVA_HOME=/usr/lib/jvm/javajdk1.8
+export JRE_HOME=/usr/lib/jvm/javajdk1.8/jre
+export PATH=$PATH:/usr/lib/jvm/javajdk1.8/bin:/usr/lib/jvm/javajdk1.8/jre/bin
+export HADOOP_PREFIX=/opt/hadoop
+export HADOOP_HOME=$HADOOP_PREFIX
+export HADOOP_COMMON_HOME=/opt/hadoop/share/hadoop/common
+export HADOOP_CONF_DIR=$HADOOP_PREFIX/etc/hadoop
+export HADOOP_HDFS_HOME=$HADOOP_PREFIX
+export HADOOP_MAPRED_HOME=/opt/hadoop/share/hadoop/mapreduce
+export HADOOP_YARN_HOME=$HADOOP_PREFIX
+export HADOOP_CLASSPATH=$HADOOP_PREFIX
+export SQOOP_HOME=/opt/sqoop
+export FLUME_HOME=/opt/flume
+export YARN_HOME=$HADOOP_HOME
+export PATH=$PATH:$HADOOP_PREFIX/sbin:$HADOOP_PREFIX/bin:$SQOOP_HOME/bin:$FLUME_HOME/bin
